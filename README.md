@@ -3,4 +3,4 @@
 
 ## Contents
 
-01. Hello World
+[01. Hello World](https://github.com/jayden-lee/hello-go/tree/master/01.%20Hello%20World)
