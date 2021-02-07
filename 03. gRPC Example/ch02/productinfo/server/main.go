@@ -5,11 +5,11 @@ import (
 	"log"
 	"net"
 
+	pb "./ecommerce"
 	"github.com/gofrs/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	pb "productinfo/server/ecommerce"
 )
 
 const (

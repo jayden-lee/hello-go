@@ -1,10 +1,10 @@
 package main
 
 import (
+	pb "./ecommerce"
 	"context"
 	"google.golang.org/grpc"
 	"log"
-	pb "productinfo/client/ecommerce"
 	"time"
 )
 
