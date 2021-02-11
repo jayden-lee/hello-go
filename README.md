@@ -10,6 +10,8 @@
 
 ## Go Tool
 - go build
+- go install
 - go run
 - go fmt
 - go version
+- go doc
