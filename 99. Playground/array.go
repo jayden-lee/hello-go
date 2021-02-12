@@ -8,6 +8,12 @@ func main() {
 	fmt.Println(numbers)
 	fmt.Println("Length:", len(numbers))
 
+	result := 0
+	for _, value := range numbers {
+		result += value
+	}
+	fmt.Println("Sum:", result)
+
 	// 다차원배열
 	var multiArray [2][3]int
 	multiArray[0][0] = 0

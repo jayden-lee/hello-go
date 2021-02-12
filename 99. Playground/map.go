@@ -14,8 +14,8 @@ func main() {
 	fmt.Println("Length:",len(wordCounts))
 
 	// Map에 Key 값이 있는지 체크
-	_, isExisting := wordCounts["javascript"]
-	fmt.Println(isExisting)
+	_, ok := wordCounts["javascript"]
+	fmt.Println(ok)
 
 	// Map 요소 출력
 	for key, val := range wordCounts {
